@@ -2,7 +2,7 @@ package org.example;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class AppTest {
+public class GeneralTest {
 
     public static void main(String[] args) {
 
