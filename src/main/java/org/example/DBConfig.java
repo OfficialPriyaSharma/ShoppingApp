@@ -18,10 +18,10 @@ public class DBConfig {
     {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
 
-        dataSource.setDriverClassName("org.h2.Driver");
-        dataSource.setUrl("");
-        dataSource.setUsername("");
-        dataSource.setPassword("");
+        dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/ShoppingApp?userSSL=false&createDatabaseIfNotExist=true");
+        dataSource.setUsername("root");
+        dataSource.setPassword("password@123");
 
         System.out.println(" ---------- DataSource Object is Created ---------- ");
 
